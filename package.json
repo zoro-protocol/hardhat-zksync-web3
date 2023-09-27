@@ -1,13 +1,28 @@
 {
   "name": "@zoroprotocol/hardhat-zksync-web3",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hardhat plugin that extends the Hardhat Runtime Environment with the zksync-web3 wallet",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoro-protocol/hardhat-zksync-web3.git"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "hardhat",
+    "hardhat-plugin",
+    "zkSync"
+  ],
+  "author": "Zoro Protocol <enzo@zoroprotocol.com> (https://zoroprotocol.com)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoro-protocol/hardhat-zksync-web3/issues"
+  },
+  "homepage": "https://github.com/zoro-protocol/hardhat-zksync-web3",
   "devDependencies": {
     "@matterlabs/hardhat-zksync-toolbox": "^0.2.0",
     "@nomiclabs/hardhat-ethers": "^2.2.3",
