@@ -1,5 +1,5 @@
 {
-  "name": "hardhat-zksync-wallet",
+  "name": "@zoroprotocol/hardhat-zksync-web3",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
