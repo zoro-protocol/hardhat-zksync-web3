@@ -4,8 +4,13 @@
   "description": "Hardhat plugin that extends the Hardhat Runtime Environment with the zksync-web3 wallet",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
   },
+  "files": [
+    "dist/",
+    "src/"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/zoro-protocol/hardhat-zksync-web3.git"
